@@ -1,0 +1,595 @@
+body {
+    overflow-x: hidden;
+}
+.img-1-h{
+    visibility: hidden;
+}
+.content-hero {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.hero-p{
+    margin-bottom: 10%;
+}
+.hero-h1 {
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10%;
+}
+
+.hero-button {
+    height: 9vh;
+    width: 14vw;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: -27%;
+}
+.hero-img{
+    height: 70vh;
+    width: 40vw;
+    margin-top: 5%;
+}
+.company-logo {
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.company-img {
+    height: 7vh;
+    background-size: cover;
+    width: 10vw;
+}
+
+.heading-service {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 5vh;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.sevice-h1 {
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 9vw;
+    height: 8vh;
+    text-align: center;
+    background-color: #B9ff66;
+}
+
+.service-p {
+    padding-left: 2%;
+}
+
+.first-service-card {
+    height: 35vh;
+    width: 33vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    border: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.second-service-card {
+    height: 35vh;
+    width: 33vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color:#B9ff66;
+    border-bottom: 5px solid black;
+    border: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.card-h1 {
+    margin-top: 15%;
+    margin-left: 15%;
+    font-size: 20px;
+    width: 10vw;
+    font-weight: 400;
+}
+
+.card-h1-1 {
+    margin-top: 15%;
+    margin-left: 15%;
+    font-size: 20px;
+    width: 10vw;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #B9ff66;
+    font-weight: 400;
+}
+
+.card-p {
+    margin-left: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-service-card {
+    display: flex;
+    flex-direction: row;
+}
+.sevice-h1-1{
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 19vw;
+    height: 8vh;
+    text-align: center;
+    background-color: #B9ff66;
+}
+hr{
+    color: #000;
+}
+.service-p-1 {
+    padding-top: 0.5%;
+    padding-left: 2%;
+}
+.columns {
+    height: 25vh;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4vh 2vw;
+    background-color: #B9ff66;
+}
+.columns-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.colum1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4vh 2vw;
+    background-color: white;
+}
+
+.sevice-h1-2{
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 15vw;
+    height: 8vh;
+    text-align: center;
+    background-color: #B9ff66;
+}
+.service-p-2 {
+    padding-top: 0.5%;
+    padding-left: 2%;
+}
+.contact-form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form {
+    margin-left: -5%;
+    width: 45%;
+    height: 80vh;
+}
+
+form {
+    margin-top: 10%;
+    padding-left: -55%;
+}
+
+.start-form {
+    background-color: rgb(247, 247, 247);
+    height: 90vh;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+
+.form-img {
+    margin-top: -7%;
+    margin-left: 22%;
+    height: 80vh;
+    margin-right: -15%;
+}
+
+.form-button {
+    height: 7vh;
+    width: 20vw;
+    border-radius: 20px;
+    margin-top: 5%;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    margin-left: 3%;
+    margin-right: 3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #1c1c27;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex: 1;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.logo-foot{
+    display: flex;
+    flex-direction: row;
+}
+.logo-foot h1{
+    font-size: 25px;
+}
+.footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact .contact-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #B9ff66;
+}
+
+.footer-contact li {
+    margin-bottom: 8px;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    background-color: #2a2a38;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.email-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a38;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #a8ff60;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #8ad94c;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+    nav a{
+         visibility: hidden;
+    }
+    header button{
+        visibility: hidden;
+   }
+   header{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+   }
+   .logo-img{
+    margin-right: -37%;
+    height: 4vh;
+        width: 14vw;
+
+   }
+   .img-1-h{
+    visibility: visible;
+    margin-top: 5%;
+    height: 4vh;
+        width: 14vw;
+         margin-right: -45%;
+   }
+   .logo-img{
+    margin-left: -25%;
+   }
+   header span{
+    padding-left: 35%;
+   }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .content-hero{
+        width: 160%;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-button{
+        width: 50%;
+        font-size: 26px;
+    }
+    .hero-p{
+        color: black;
+    }
+    .hero-img{
+        width: 160%;
+        margin-left: 15%;
+    }
+    .company-logo{
+        padding: 10%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 160%;
+        margin-left: 4%;
+    }
+    .company-img{
+        width: 30%;
+    }
+    .heading-service{
+        width: 154%;
+    }
+    .sevice-h1{
+        padding-top: 2%;
+        width: 30%;
+    }
+    .service-p{
+        width: 75%;
+    }
+    .sevice-h1-1{
+        padding-top: 2%;
+        width: 70%;
+    }
+    .service-p-1{
+        width: 75%;
+    }
+    .sevice-h1-2{
+        padding-top: 2%;
+        width: 40%;
+        bottom: 15%;
+    }
+    .service-p-2{
+        width: 75%;
+        padding-bottom: 15%;
+    }
+    .main-service-card{
+        width: 160%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        margin-left: 2%;
+        padding-bottom:10%;
+    }
+    .first-service-card,.second-service-card{
+        width: 90%;
+        height: 27vh;
+        padding-bottom: 5%;
+    }
+    .card-h1,.card-h1-1{
+        width: 130%;
+
+    }
+    .columns{
+        margin-top: 15%;
+        width: 155%;
+        height: 10vh;
+        margin-bottom: 3%;
+        padding-left: 8%;
+        border-radius: 70px;
+        background-color: white;
+    }
+    .columns img{
+        margin-top: -4%;
+    }
+
+    .columns p,hr{
+        visibility: hidden;
+    }
+    hr{
+        background-color: black;
+    }
+    .colum1{
+        width: 155%;
+        height: 10vh;
+        margin-bottom: 3%;
+        text-align: left;
+        padding-left: 8%;
+        border-radius: 50px;
+    }
+    .form-img{
+        visibility: hidden;
+    }
+    .start-form{
+        height: 50vh;
+        width: 145%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .contact-form{
+        height: 60vh;
+        margin-bottom: 5%;
+    }
+    .form{
+        margin-top: 55%;
+        margin-left: 25%;
+        width: 145%;
+    }
+    label{
+        color: black;
+    }
+    #small-input{
+        width: 350%;
+        border: 1px solid black;
+    }
+    #base-input{
+        width: 350%;
+    }
+    #large-input{
+        width: 350%;
+    }
+    .form-button{
+        width: 200%;
+    }
+    .logo-foot{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-foot h1{
+        font-size: 20px;
+    }
+    .footer{
+        width: 140%;
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+    .subscribe-box{
+        width: 160%;
+        margin-left: -30%;
+    }
+    .email-input{
+        width: 60%;
+    }
+    .subscribe-btn{
+        width: 50%;
+    }
+}
